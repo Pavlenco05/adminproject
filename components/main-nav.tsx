@@ -10,8 +10,8 @@ export function MainNav({
     const pathname = usePathname();
     const params = useParams();   
     
-    if (!params.storeId) { //
-        return null; // для исправлении ошибки появления 2 Settings
+    if (!params.storeId) { 
+        return null; 
       } //
     
     const routes = [
